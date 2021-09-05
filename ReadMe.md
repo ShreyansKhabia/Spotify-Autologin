@@ -21,5 +21,8 @@ this is very useful if you have set your spotify country different from where yo
 
 
 #### note:
+
+preset the country you want to login from in Psiphon3
+
 if an error occurs, update the class name of the Login Button in the code using inspect element in your browser(see comment in the code).  
 PS: this is a rare event.
