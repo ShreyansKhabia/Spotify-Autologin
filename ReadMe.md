@@ -7,7 +7,7 @@ this is very useful if you have set your spotify country different from where yo
 ## required library/software
 <p>software:  
 
-        VPN: Psiphon3 (you can modify the code to open VPn of your choice)
+        VPN: Psiphon3 (you can modify the code to open VPN of your choice)
 </p>
 
 <p>libraries:
