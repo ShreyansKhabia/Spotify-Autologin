@@ -34,7 +34,6 @@ while 1:
     LoginButt = driver.find_element_by_id("login-button")
     time.sleep(4)
     LoginButt.click()
-    # LoginButt.submit()
 
     today = date.today()
     d2 = today.strftime("%B %d, %Y")
@@ -43,6 +42,6 @@ while 1:
     time.sleep(20)      # this allows login to not be interrupted due to sudden closing of psiphon
     print("closing psiphon ")
     os.system("TASKKILL /IM psiphon3.exe")
-    # os.system("TASKKILL /IM Google Chrome.exe")
+    # os.system("TASKKILL /IM Google Chrome.exe") not closing chrome as i might be doing other stuff on it
     time.sleep(604800)  # you can change re-logging time to a time that suits you, i have set it to 7 days
 
